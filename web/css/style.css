@@ -1,0 +1,43 @@
+
+.padding10{
+    padding:10px;
+}
+
+tr>th{
+    background-color:  #d9534f;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    line-height: 30px;
+}
+
+.fixedWidth{
+    width: 196px!important;
+}
+
+
+.dataDiv{
+    border-radius: 20px;
+    margin: 15px;
+    height: 170px;
+    padding:15px 10px 10px 10px;
+    line-height:1.42857143;
+    color: darkcyan;
+    border-top:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-radius:4px;
+    display: inline-block;
+    width: 15%;
+    box-shadow: 5px 5px 5px lightblue;
+    transition: 0.5s;
+}
+
+.dataDiv:hover{
+    transform: scale(0.8,0.8) rotate(30deg);
+}
+
+.dataDiv a{
+    color: #d9534f;
+}
