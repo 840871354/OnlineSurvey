@@ -1,0 +1,27 @@
+#
+#Mon Nov 16 11:38:18 CST 2020
+com.survey.controller.IndexController=org.springframework.stereotype.Component
+com.survey.entity.Company=javax.persistence.Entity,javax.persistence.Table
+com.survey.service.impl.CompanyServiceImpl=org.springframework.stereotype.Component
+com.survey.controller.CorporateUserController=org.springframework.stereotype.Component
+com.survey.entity.CompanyUser=javax.persistence.Entity,javax.persistence.Table
+com.survey.service.impl.OrdinaryUserServiceImpl=org.springframework.stereotype.Component
+com.survey.dao.impl.OrdinaryUserDaoImpl=org.springframework.stereotype.Component
+com.survey.entity.QuestionId=javax.persistence.Embeddable
+com.survey.controller.CompanyController=org.springframework.stereotype.Component
+com.survey.service.impl.CorporateUserServiceImpl=org.springframework.stereotype.Component
+com.survey.dao.impl.CompanyDaoImpl=org.springframework.stereotype.Component
+com.survey.entity.OrdinaryUser=javax.persistence.Entity,javax.persistence.Table
+com.survey.controller.RegisteredController=org.springframework.stereotype.Component
+com.survey.entity.Manager=javax.persistence.Entity,javax.persistence.Table
+com.survey.controller.AdminUserController=org.springframework.stereotype.Component
+com.survey.entity.UserAnswerId=javax.persistence.Embeddable
+com.survey.entity.Survey=javax.persistence.Entity,javax.persistence.Table
+com.survey.controller.LoginPageController=org.springframework.stereotype.Component
+com.survey.dao.impl.CorporateUserDaoImpl=org.springframework.stereotype.Component
+com.survey.dao.impl.AdminUserDaoImpl=org.springframework.stereotype.Component
+com.survey.entity.Question=javax.persistence.Entity,javax.persistence.Table
+com.survey.controller.OrdinaryUserController=org.springframework.stereotype.Component
+com.survey.service.impl.AdminUserServiceImpl=org.springframework.stereotype.Component
+com.survey.controller.ManagementPageController=org.springframework.stereotype.Component
+com.survey.entity.UserAnswer=javax.persistence.Entity,javax.persistence.Table
