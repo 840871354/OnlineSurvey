@@ -143,7 +143,7 @@
 
                 </c:forEach>
                 <button type="submit" style="position: absolute; margin-left: 1090px; left: -450px; top: 647px; height: 35px; width: 77px; background: #06F; "><font color="#CCCCCC">提交</font></button>
-                <button type="reset"style="position: absolute; margin-left: 1000px;  left: -197px; top: 649px; height: 35px; width: 77px;"><font color="#06F">重启</font></button>
+                <button type="reset"style="position: absolute; margin-left: 1000px;  left: -197px; top: 649px; height: 35px; width: 77px;"><font color="#06F">重置</font></button>
             </div>
             <script>
                 var hobby = $("#hobby").val()
