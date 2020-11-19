@@ -1,5 +1,5 @@
 #
-#Mon Nov 16 11:38:18 CST 2020
+#Thu Nov 19 20:44:26 CST 2020
 com.survey.controller.IndexController=org.springframework.stereotype.Component
 com.survey.entity.Company=javax.persistence.Entity,javax.persistence.Table
 com.survey.service.impl.CompanyServiceImpl=org.springframework.stereotype.Component
