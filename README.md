@@ -8,7 +8,7 @@
 在 < / host > 内添加以下内容
 
 例:  
-<Context path="/UserImage" docBase="C:\Users\MIKUO\Documents\NetBeansProjects\OnlineSurvey\UserImage"></Context仿删>
+<Context防消失 path="/UserImage" docBase="C:\Users\MIKUO\Documents\NetBeansProjects\OnlineSurvey\UserImage"></Context防消失>
 
 （dobase的路径需要更改为你计算机上此项目中的userimage文件夹的路径）
 
