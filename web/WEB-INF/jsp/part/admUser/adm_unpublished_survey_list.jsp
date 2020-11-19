@@ -18,10 +18,10 @@
             <br/>
             <table class="table" border="1">
                 <tr>
-                    <th>调查账户</th>
-                    <th>调查姓名</th>
-                    <th>密码</th>
-                    <th>填写电话号码</th>
+                    <th>调查表id</th>
+                    <th>调查表名称</th>
+                    <th>关键词</th>
+                    <th>完成人数</th>
                     <th>审查</th>
                     <th>发布日期</th>
                     <th colspan=2>操作</th>
