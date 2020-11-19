@@ -22,7 +22,7 @@
                     <th>调查姓名</th>
                     <th>密码</th>
                     <th>发布日期</th>
-                    <th>完成编号</th>
+                    <th>完成人数</th>
                     <th>操作</th>
                 </tr>
                 <c:forEach items ="${SurveyList}" var="s" varStatus="si">
