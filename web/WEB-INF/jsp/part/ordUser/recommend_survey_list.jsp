@@ -18,9 +18,9 @@
             <br/>
             <table class="table" border="1">
                 <tr>
-                    <th>调查编号</th>
-                    <th>调查姓名</th>
-                    <th>密码</th>
+                    <th>调查表编号</th>
+                    <th>调查表名称</th>
+                    <th>关键词</th>
                     <th>发布日期</th>
                     <th>完成人数</th>
                     <th>操作</th>
