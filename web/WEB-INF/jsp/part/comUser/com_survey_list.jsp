@@ -26,7 +26,7 @@
                     <th>调查编号</th>
                     <th>调查姓名</th>
                     <th>关键词</th>
-                    <th>填写号码</th>
+                    <th>填写人数</th>
                     <th>审核</th>
                     <th>发布日期</th>
                     <th colspan=5>操作</th>
