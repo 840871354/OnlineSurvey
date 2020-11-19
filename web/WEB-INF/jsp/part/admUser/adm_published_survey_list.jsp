@@ -21,7 +21,7 @@
                     <th>调查表id</th>
                     <th>调查表名称</th>
                     <th>关键词</th>
-                    <th>填完成人数</th>
+                    <th>完成人数</th>
                     <th>审查</th>
                     <th>发布日期</th>
                     <th colspan=2>操作</th>
