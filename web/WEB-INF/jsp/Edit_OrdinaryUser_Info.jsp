@@ -128,7 +128,7 @@
                         <input name="cpass" type="password"><br/><br/>
                     </div>
                     <div class="img">
-                        <img id="portrait" src="" width="200px" height="200px" ><br/><br/>	
+                       <img id="portrait" src="http://localhost:8080/OnlineSurvey${o.ouPhoto}" width="200px" height="200px"><br/><br/>
                     </div>
                     <input type="hidden" id="img" name="userImage" value="${o.ouPhoto}" />
 

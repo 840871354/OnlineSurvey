@@ -53,14 +53,15 @@ public class CorporateUserDaoImpl implements CorporateUserDao {
     @Override
     public String getPhoto(MultipartFile photo) {
         try {
-            String path = "C:\\Users\\MIKUO\\Documents\\NetBeansProjects\\OnlineSurvey\\UserImage\\";
-            String relativePath = "../../../UserImage/";
-//            String path = "C:\\Program Files\\Tomcat\\UserImage";
+            String relativePath = "/pic/";
             String originalFileName = photo.getOriginalFilename();
             String newFileName = UUID.randomUUID() + originalFileName.substring(originalFileName.lastIndexOf("."));
-            File newFile = new File(path + newFileName);
+            File dirs = new File("d:/upload");
+            if(!dirs.exists()){
+                dirs.mkdirs();
+            }
+            File newFile = new File(dirs, newFileName);
             photo.transferTo(newFile);
-
             return relativePath + newFileName;
         } catch (IOException ex) {
             System.out.println("Error in Transfer : " + ex);

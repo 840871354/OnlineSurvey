@@ -17,12 +17,7 @@
                     fr.readAsDataURL(file);
                 }
             }
-//            function ord() {
-//                document.getElementById("company").style.display = "none";
-//            }
-//            function com() {
-//                document.getElementById("company").style.display = "inline";
-//            }
+
         </script> 
     </head>
     <style type="text/css">
@@ -133,7 +128,7 @@
                         <input name="cpass" type="password"><br/><br/>
                     </div>
                     <div class="img">
-                        <img id="portrait" src="" width="200px" height="200px" ><br/><br/>	
+                        <img id="portrait" src="http://localhost:8080/OnlineSurvey${c.cuPhoto}" width="200px" height="200px"><br/><br/>
                     </div>
 
                     <div class="inputimg">

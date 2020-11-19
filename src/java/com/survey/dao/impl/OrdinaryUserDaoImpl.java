@@ -55,26 +55,21 @@ public class OrdinaryUserDaoImpl implements OrdinaryUserDao {
     @Override
     public String getPhoto(MultipartFile photo) {
         try {
-            //存储图片的路径
-            String path = "C:\\Users\\MIKUO\\Documents\\NetBeansProjects\\OnlineSurvey\\UserImage\\";
-//            String path = "C:\\Program Files\\Tomcat\\UserImage\\";
-            String relativePath = "../../../UserImage/";
-            //图片原始名称
+            String relativePath = "/pic/";
             String originalFileName = photo.getOriginalFilename();
-            //新图片名称
             String newFileName = UUID.randomUUID() + originalFileName.substring(originalFileName.lastIndexOf("."));
-            //新图片
-            File newFile = new File(path + newFileName);
-            //将数据写入磁盘
+            File dirs = new File("d:/upload");
+            if(!dirs.exists()){
+                dirs.mkdirs();
+            }
+            File newFile = new File(dirs, newFileName);
             photo.transferTo(newFile);
-
             return relativePath + newFileName;
         } catch (IOException ex) {
             System.out.println("Error in Transfer : " + ex);
             return null;
         }
     }
-
     @Override
     public void addUser(String name, String phone, String email, String dob, String hobby, String Gender, String pass, String photo) {
         System.out.println(name +" "+phone+" "+email+" "+dob+" "+hobby+" "+Gender+" "+pass+" "+photo);
