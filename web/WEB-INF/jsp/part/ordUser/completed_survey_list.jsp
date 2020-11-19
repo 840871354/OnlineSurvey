@@ -18,8 +18,8 @@
             <br/>
             <table class="table" border="1">
                 <tr>
-                    <th>调查编码</th>
-                    <th>调查姓名</th>
+                    <th>调查表编码</th>
+                    <th>调查表名称</th>
                     <th>关键词</th>
                     <th>发布日期</th>
                     <th>操作</th>
