@@ -18,8 +18,8 @@
             <br/>
             <table class="table" border="1">
                 <tr>
-                    <th>调查账户</th>
-                    <th>调查姓名</th>
+                    <th>调查表id</th>
+                    <th>调查表名称</th>
                     <th>关键词</th>
                     <th>填完成人数</th>
                     <th>审查</th>
